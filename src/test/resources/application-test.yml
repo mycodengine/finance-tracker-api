@@ -1,0 +1,11 @@
+# Test profile — Testcontainers overrides datasource via @ServiceConnection
+spring:
+  flyway:
+    enabled: true
+  jpa:
+    show-sql: false
+
+jwt:
+  secret: dGhpcy1pcy1hLXZlcnktbG9uZy1zZWNyZXQta2V5LWZvci1kZXYtb25seQ==
+  access-token-expiry: 900000
+  refresh-token-expiry: 604800000

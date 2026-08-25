@@ -1,0 +1,27 @@
+# Build output
+build/
+.gradle/
+out/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment secrets — never commit these
+.env
+
+# Logs
+logs/
+*.log
+
+# Gradle wrapper (keep gradlew scripts, exclude jar)
+!gradle/wrapper/gradle-wrapper.jar
